@@ -778,3 +778,7 @@ body[contenteditable="true"][dir="ltr"] > blockquote * {
 body[contenteditable="true"][dir="ltr"] > blockquote cite {
 	border-color: #484950;
 }
+.btn.hactive {
+	border-color: #ff3333!important;
+	color: #ff3333!important;
+}
