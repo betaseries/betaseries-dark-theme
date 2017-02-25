@@ -785,3 +785,6 @@ body[contenteditable="true"][dir="ltr"] > blockquote cite {
 	border-color: #ff3333!important;
 	color: #ff3333!important;
 }
+.sidebar .btn-toggle-sidebar span {
+	color: #8a8c92!important;
+}
