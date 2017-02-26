@@ -785,6 +785,12 @@ body[contenteditable="true"][dir="ltr"] > blockquote cite {
 	border-color: #ff3333!important;
 	color: #ff3333!important;
 }
+.button-action.ss_toggle.hl,
+.button-action.sss_toggle.hl {
+	border-bottom: 2px solid #b38b24!important;
+	background-color: #fdc228!important;
+	color: #1d1e23!important;
+}
 span.ep-special.tooltip-wrapper + button.btn-reset {
 	color: #89a3e8!important;
 }
