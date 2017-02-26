@@ -791,3 +791,9 @@ body[contenteditable="true"][dir="ltr"] > blockquote cite {
 	background-color: #fdc228!important;
 	color: #1d1e23!important;
 }
+span.ep-special.tooltip-wrapper + button.btn-reset {
+	color: #89a3e8!important;
+}
+span.ep-special.tooltip-wrapper + button.btn-reset:hover {
+	color: #fff!important;
+}
