@@ -800,3 +800,21 @@ span.ep-special.tooltip-wrapper + button.btn-reset {
 span.ep-special.tooltip-wrapper + button.btn-reset:hover {
 	color: #fff!important;
 }
+span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip:after {
+	border-top-color: #5388d3;
+}
+span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip:before {
+	border-top-color: #85aee6;
+}
+span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip {
+	border-color: #85aee6;
+	border-radius: 6px;
+	color: #000;
+	background: #5388d3;
+}
+span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip a {
+	color: #fff!important;
+}
+span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip a:hover {
+	color: #fdc228!important;
+}
