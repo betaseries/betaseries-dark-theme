@@ -818,3 +818,7 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.tooltip a:hover {
 	color: #fdc228!important;
 }
+.episode-date[title="Pas de date "] {
+	background-color: #212226!important;
+	color: #9699a7;
+}
