@@ -800,3 +800,7 @@ span.ep-special.tooltip-wrapper + button.btn-reset {
 span.ep-special.tooltip-wrapper + button.btn-reset:hover {
 	color: #fff!important;
 }
+.episode-date[title="Pas de date "] {
+	background-color: #212226!important;
+	color: #9699a7;
+}
