@@ -822,3 +822,47 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 	background-color: #212226!important;
 	color: #9699a7;
 }
+.tickets .item .status .label.investigate {
+	background: #b16060;
+	color: white;
+}
+.tickets .item .status .label.open {
+	background: #5d9464;
+	color: white;
+}
+.tickets .item .status .label.accept {
+	background: #3c8bef;
+	color: white;
+}
+.tickets .item .status .label.confirm {
+	background: #ffffff;
+	color: black;
+}
+[onclick^="ticketsSearch("] {
+	color: #333!important;
+	background: #fdc228!important;
+	box-shadow: 0 1px 2px #1d1e23!important;
+}
+.ticket ul {
+	border-color: #3b3e43;
+	background: #242529;
+}
+#right.maincontent > div.row > div.col-md-5 > div[style="background: #FAFAFA; border: 1px solid #C1E1FA; padding: 10px;"] {
+    background-color: #999ca7!important;
+    border-color: #212226!important;
+}
+#right.maincontent > div.row > div.col-md-5 > div[style="background: #FAFAFA; border: 1px solid #C1E1FA; padding: 10px;"] > h1 {
+    background-color: #242529!important;
+    border-color: #2d2e33!important;
+    color: #d0d0d0!important;
+}
+#right.maincontent > div.row > div.col-md-5 > div[style="background: #FAFAFA; border: 1px solid #C1E1FA; padding: 10px;"] > p {
+	color: #3e3e3e!important;
+}
+.btn-amount.selected {
+    background-color: #1b6de8;
+    color: #fff;
+}
+.btn-amount {
+    color: #2d2e33;
+}
