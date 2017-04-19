@@ -878,6 +878,22 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 .btn-amount {
     color: #2d2e33;
 }
+.mainBlock {
+    background: #212226;
+}
+.greyBorder {
+    border-color: #1a1b1d ;
+}
+.slide .number {
+    color: #d4d4d4;
+}
+.mainBlock p {
+    color: #f7f7f7;
+}
+.btn-greyLight {
+    background: #fdc228;
+    color: black!important;
+}
 span.topbar-icon > svg > path.hover-white {
     fill: #ffd66c;
 }
