@@ -70,6 +70,7 @@ body {
 }
 .maintitle,
 h1 {
+	background-color: transparent;
 	border-color: #212226;
 	color: #5b6266;
 }
@@ -243,7 +244,7 @@ h1 {
 	color: #fdc228!important;
 	background-color: #1a1b1f!important;
 }
-#notifications-button {
+path.notification-icon-bell{
 	fill: #999ca7;
 }
 #notifications-button.highlight {
@@ -251,10 +252,15 @@ h1 {
 }
 .topbar-menu.donations>li:hover>a,
 .topbar-menu>li.active>a,
-.topbar-menu>li.hover>a,
-.topbar-menu>li:hover>a {
+.topbar-menu>li.hover>a {
 	color: #1a1b1f!important;
 	background-color: #fdc228!important;
+}
+.topbar-menu>li:hover>a{
+	-moz-box-shadow: inset 0px -5px 0px 0px #fdc228;
+	-webkit-box-shadow: inset 0px -5px 0px 0px #fdc228;
+	-o-box-shadow: inset 0px -5px 0px 0px #fdc228;
+	box-shadow: inset 0px -5px 0px 0px #fdc228;
 }
 #top > div > div > div.topbar-infos > div.topbar-user.hidden-sm.hidden-xs > ul > li > a {
 	color: #fdc228!important;
@@ -615,9 +621,15 @@ a.hl.ss_toggle {
 }
 .header_search {
 	border-radius: 1px;
-	background: url(https://i.imgur.com/C6Ljnv5.png) 7px center no-repeat #2d2e33;
+	background: url(https://i.imgur.com/C6Ljnv5.png) calc(100% - 7px) center no-repeat #2d2e33;
 	border: 1px solid #3b3e43;
 	color: #b7b7b7;
+}
+.header_search::placeholder {
+	color: #b7b7b7;
+}
+.wrapper-search .iconSearch svg {
+	fill: #999ca7;
 }
 .irs-max,
 .irs-min {
@@ -865,4 +877,7 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 }
 .btn-amount {
     color: #2d2e33;
+}
+span.topbar-icon > svg > path.hover-white {
+    fill: #ffd66c;
 }
