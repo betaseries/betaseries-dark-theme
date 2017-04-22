@@ -33,7 +33,6 @@ body {
 }
 .topbar {
 	background: #212226;
-	box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.14), 0px 8px 10px 1px rgba(0, 0, 0, 0.098), 0px 3px 14px 2px rgba(0, 0, 0, 0.082);
 }
 .content {
 	background: #2d2e33;
@@ -48,14 +47,6 @@ body {
 .sidebar h4 {
 	border-bottom-color: #3b3e43;
 	color: #63686e;
-}
-.header-navigation a.active {
-	background-color: #fff;
-	color: #222!important;
-}
-.header-navigation a:hover {
-	background-color: rgba(255, 255, 255, .6);
-	color: #222!important;
 }
 .sidebar a:hover {
 	background-color: rgba(255, 255, 255, .8);
@@ -248,7 +239,6 @@ path.notification-icon-bell{
 .topbar-menu>li.active>a,
 .topbar-menu>li.hover>a {
 	color: #1a1b1f!important;
-	background-color: #fdc228!important;
 }
 .topbar-menu>li:hover>a{
 	-moz-box-shadow: inset 0px -5px 0px 0px #fdc228;
@@ -887,4 +877,18 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 }
 span.topbar-icon > svg > path.hover-white {
     fill: #ffd66c;
+}
+.header-navigation-wrapper,
+.header-navigation {
+    background: #1c1c1d;
+}
+.btn.btn--red {
+	border-color: #c35454!important;
+	color: #c35454!important;
+}
+.btn.btn--red:hover {
+	background-color: rgba(195, 84, 84, .1)!important;
+}
+.footer {
+    background-color: #17171b;
 }
