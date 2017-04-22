@@ -244,6 +244,9 @@ path.notification-icon-bell{
 #notifications-button.highlight {
 	fill: #fdc228;
 }
+a.topbar-infos__icon.topbar-messagerie > svg {
+	fill: #999ca7;
+}
 .topbar-menu.donations>li:hover>a,
 .topbar-menu>li.active>a,
 .topbar-menu>li.hover>a {
