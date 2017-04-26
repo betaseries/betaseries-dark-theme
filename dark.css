@@ -31,7 +31,7 @@ body {
 *::-webkit-scrollbar-track {
 	background: #19191b ! important;
 }
-.topbar {
+.menu {
 	background: #212226;
 	box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.14), 0px 8px 10px 1px rgba(0, 0, 0, 0.098), 0px 3px 14px 2px rgba(0, 0, 0, 0.082);
 }
@@ -887,4 +887,10 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 }
 span.topbar-icon > svg > path.hover-white {
     fill: #ffd66c;
+}
+.menu-icon--message svg {
+	fill: #999ca7;
+}
+span.menu-icon > svg > path.hover-white {
+	fill: rgb(255, 213, 104);
 }
