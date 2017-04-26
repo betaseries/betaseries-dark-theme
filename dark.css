@@ -881,6 +881,18 @@ span.ep-special.tooltip-wrapper.is-visible > span.tooltip-wrapper__inner > span.
 span.topbar-icon > svg > path.hover-white {
     fill: #ffd66c;
 }
+.notification p {
+    color: #d9d9d9;
+}
+.notification:not(.notification__push)+.notification {
+    border-color: #5d6267;
+}
+.notification.notification--unread {
+    background: rgba(33, 34, 38, .5);
+}
+.notificationsWrapper:after {
+    border-bottom-color: #3b3e43;
+}
 .header-navigation-wrapper,
 .header-navigation {
     background: #1c1c1d;
