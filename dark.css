@@ -31,7 +31,7 @@ body {
 *::-webkit-scrollbar-track {
 	background: #19191b ! important;
 }
-.topbar {
+.menu {
 	background: #212226;
 }
 .content {
@@ -234,6 +234,9 @@ path.notification-icon-bell{
 }
 #notifications-button.highlight {
 	fill: #fdc228;
+}
+a.topbar-infos__icon.topbar-messagerie > svg {
+	fill: #999ca7;
 }
 .topbar-menu.donations>li:hover>a,
 .topbar-menu>li.active>a,
@@ -891,4 +894,10 @@ span.topbar-icon > svg > path.hover-white {
 }
 .footer {
     background-color: #17171b;
+}
+.menu-icon--message svg {
+	fill: #999ca7;
+}
+span.menu-icon > svg > path.hover-white {
+	fill: rgb(255, 213, 104);
 }
