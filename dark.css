@@ -229,6 +229,9 @@ h1 {
 	color: #fdc228!important;
 	background-color: #1a1b1f!important;
 }
+.btn.active:hover {
+	background-color: rgba(253, 194, 40, .1)!important;
+}
 path.notification-icon-bell{
 	fill: #999ca7;
 }
@@ -912,4 +915,27 @@ span.topbar-icon > svg > path.hover-white {
 }
 span.menu-icon > svg > path.hover-white {
 	fill: rgb(255, 213, 104);
+}
+.notification__datas .btn-reset {
+	background: transparent url("data:image/svg+xml;charset=UTF-11,<svg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'><path d='M7 .333c-3.687 0-6.667 2.98-6.667 6.667s2.98 6.667 6.667 6.667 6.667-2.98 6.667-6.667-2.98-6.667-6.667-6.667zm3.333 9.06l-.94.94-2.393-2.393-2.393 2.393-.94-.94 2.393-2.393-2.393-2.393.94-.94 2.393 2.393 2.393-2.393.94.94-2.393 2.393 2.393 2.393z' fill-rule='nonzero' fill='#5d6267' /></svg>") center no-repeat;
+}
+.notification__datas .btn-reset:hover {
+	background: transparent url("data:image/svg+xml;charset=UTF-11,<svg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'><path d='M7 .333c-3.687 0-6.667 2.98-6.667 6.667s2.98 6.667 6.667 6.667 6.667-2.98 6.667-6.667-2.98-6.667-6.667-6.667zm3.333 9.06l-.94.94-2.393-2.393-2.393 2.393-.94-.94 2.393-2.393-2.393-2.393.94-.94 2.393 2.393 2.393-2.393.94.94-2.393 2.393 2.393 2.393z' fill-rule='nonzero' fill='#848b92' /></svg>") center no-repeat;
+}
+.series-count {
+	color: #fdc228;
+	background: #1c1c1d;
+	font-weight: bolder;
+	border: 1px solid;
+	border-radius: 1px;
+}
+a.menu-link:hover > span.hidden-xs > .series-count {
+	color: #1c1c1d;
+	background: #fff;
+	border-color: #fff;
+	font-weight: bolder;
+}
+.notification.notification--push, .notification.notification--delete-all {
+    border-top-color: #3b3e43;
+    background: #212226;
 }
