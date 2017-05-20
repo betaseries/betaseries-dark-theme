@@ -921,6 +921,24 @@ span.topbar-icon > svg > path.hover-white {
 .btn.btn--green:hover {
 	background-color: rgba(112, 148, 92, .1)!important;
 }
+.btn.btn--green:hover,
+.btn.btn--green.is-full,
+.btn.btn--green.active {
+    background-color: #a6e086 !important;
+}
+
+.btn.btn--yellow:hover,
+.btn.btn--yellow.is-full,
+.btn.btn--yellow.active {
+    background-color: #f6e9aa !important;
+}
+
+.btn.hactive:hover,
+.btn.btn--red:hover,
+.btn.btn--red.is-full,
+.btn.btn--red.active {
+    background-color: #ff8888 !important;
+}
 .footer {
     background-color: #17171b;
 }
