@@ -907,6 +907,20 @@ span.topbar-icon > svg > path.hover-white {
 .btn.btn--red:hover {
 	background-color: rgba(195, 84, 84, .1)!important;
 }
+.btn.btn--yellow {
+	border-color: #ada682!important;
+	color: #ada682!important;
+}
+.btn.btn--yellow:hover {
+	background-color: rgba(173, 166, 130, .1)!important;
+}
+.btn.btn--green {
+	border-color: #70945c!important;
+	color: #70945c!important;
+}
+.btn.btn--green:hover {
+	background-color: rgba(112, 148, 92, .1)!important;
+}
 .footer {
     background-color: #17171b;
 }
