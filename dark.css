@@ -983,3 +983,33 @@ div.choices li:hover > a {
 .js-notification-standalone-container.hidden-xs > .notification.notification--standalone.notification--unread > .notification__datas > .btn-reset {
 	background: transparent url("data:image/svg+xml;charset=UTF-11,<svg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'><path d='M7 .333c-3.687 0-6.667 2.98-6.667 6.667s2.98 6.667 6.667 6.667 6.667-2.98 6.667-6.667-2.98-6.667-6.667-6.667zm3.333 9.06l-.94.94-2.393-2.393-2.393 2.393-.94-.94 2.393-2.393-2.393-2.393.94-.94 2.393 2.393 2.393-2.393.94.94-2.393 2.393 2.393 2.393z' fill-rule='nonzero' fill='#d9d9d9' /></svg>") center no-repeat;
 }
+.js-notifications-container__inner a:hover {
+	color: #fff!important;
+}
+#reactjs-header-search path {
+	fill: #999ca7;
+}
+#reactjs-header-search > div > div > div:nth-child(2) > svg > g > path:nth-child(1){
+	fill:transparent!important;
+}
+.search-input {
+    background: #212226;
+}
+.search-input input {
+    color: #e0e0e0!important;
+}
+.searchResults {
+    background-color: #22262c;
+}
+.emptyblock {
+    background-color: #1f2227;
+}
+.searchResults .title {
+    color: #999;
+}
+.searchResult:hover  {
+    background-color: #171a1c;
+}
+input.form-control.form-control-transparent::-webkit-input-placeholder {
+    color: #b5b8ba!important;
+}
