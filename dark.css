@@ -1227,8 +1227,8 @@ div.choices li:hover > a {
 }
 
 .js-notification-standalone-container.hidden-xs > .notification.notification--standalone.notification--unread {
-    border-color: rgba(253,194,40,.6);
-    background: rgba(253,194,40,.3);
+    background: rgba(253, 194, 40, .8);
+    border-color: rgba(253, 194, 40, 1);
 }
 
 .js-notification-standalone-container.hidden-xs > .notification.notification--standalone.notification--unread > .notification__datas > .btn-reset {
@@ -1286,4 +1286,7 @@ input.form-control.form-control-transparent::-webkit-input-placeholder {
 
 .btn-greyBorder {
     color: #fff !important;
+}
+.searchOverlay {
+	background: rgba(13, 21, 28, .7);
 }
