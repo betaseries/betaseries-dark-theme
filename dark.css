@@ -176,6 +176,12 @@ h1 {
 .notification__datas span {
 	color: #d9d9d9;
 }
+.notification__datas .btn-reset {
+    background: transparent url("data:image/svg+xml;charset=UTF-11,<svg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'><path d='M7 .333c-3.687 0-6.667 2.98-6.667 6.667s2.98 6.667 6.667 6.667 6.667-2.98 6.667-6.667-2.98-6.667-6.667-6.667zm3.333 9.06l-.94.94-2.393-2.393-2.393 2.393-.94-.94 2.393-2.393-2.393-2.393.94-.94 2.393 2.393 2.393-2.393.94.94-2.393 2.393 2.393 2.393z' fill-rule='nonzero' fill='%235d6267' /></svg>") center no-repeat;
+}
+.notification__datas .btn-reset:hover {
+    background: transparent url("data:image/svg+xml;charset=UTF-11,<svg width='14' height='14' viewBox='0 0 14 14' xmlns='http://www.w3.org/2000/svg'><path d='M7 .333c-3.687 0-6.667 2.98-6.667 6.667s2.98 6.667 6.667 6.667 6.667-2.98 6.667-6.667-2.98-6.667-6.667-6.667zm3.333 9.06l-.94.94-2.393-2.393-2.393 2.393-.94-.94 2.393-2.393-2.393-2.393.94-.94 2.393 2.393 2.393-2.393.94.94-2.393 2.393 2.393 2.393z' fill-rule='nonzero' fill='%23848b92' /></svg>") center no-repeat;
+}
 .notification:hover {
 	color: #fff;
 	background-color: #3b8dd0;
@@ -1030,4 +1036,17 @@ div.choices li:hover > a {
 }
 input.form-control.form-control-transparent::-webkit-input-placeholder {
     color: #b5b8ba!important;
+}
+
+.btn-blue2,
+.btn-blue2:hover {
+    background: #2d2e33 !important;
+}
+
+.mainLink {
+    color: #fdc228 !important;
+}
+
+.btn-greyBorder {
+    color: #fff !important;
 }
