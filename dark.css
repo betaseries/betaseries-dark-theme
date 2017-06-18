@@ -1247,7 +1247,7 @@ div.choices li:hover > a {
     fill: transparent !important;
 }
 
-.search-input {
+.theme-top_color {
     background: #212226;
 }
 
@@ -1255,7 +1255,7 @@ div.choices li:hover > a {
     color: #e0e0e0 !important;
 }
 
-.searchResults {
+.modules-headerSearch-styles-HeaderSearchContainer-module--searchResults___3vPQp {
     background-color: #22262c;
 }
 
@@ -1263,11 +1263,11 @@ div.choices li:hover > a {
     background-color: #1f2227;
 }
 
-.searchResults .title {
+.modules-headerSearch-styles-HeaderSearchList-module--title___spbE9 {
     color: #999;
 }
 
-.searchResult:hover {
+.modules-headerSearch-styles-HeaderSearchResult-module--searchResult___3Qgxv:hover {
     background-color: #171a1c;
 }
 
