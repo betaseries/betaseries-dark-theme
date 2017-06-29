@@ -1,3 +1,23 @@
+/* ----------------------------------------------------------
+   BetaSeries class
+   ------------------------------------------------------- */
+
+.theme-top_color {
+    background: #212226 !important;
+}
+
+.theme-greyLight {
+    background: #171a1c;
+}
+
+.theme-greyMedium {
+    color: #999 !important;
+}
+
+/* ----------------------------------------------------------
+   Custom selectors
+   ------------------------------------------------------- */
+
 body {
     color: #d9d9d9 !important;
 }
@@ -13,7 +33,7 @@ body {
 }
 
 *::-webkit-scrollbar {
-	width: 10px !important;
+    width: 10px !important;
     height: 10px !important;
     border: 1px solid #1e1e1e !important;
     background: #1e1e1e !important;
@@ -37,10 +57,6 @@ body {
 *::-webkit-scrollbar-corner,
 *::-webkit-scrollbar-track {
     background: #19191b !important;
-}
-
-.menu {
-    background: #212226;
 }
 
 .content {
@@ -1247,27 +1263,15 @@ div.choices li:hover > a {
     fill: transparent !important;
 }
 
-.theme-top_color {
-    background: #212226;
-}
-
 .search-input input {
     color: #e0e0e0 !important;
-}
-
-.modules-headerSearch-styles-HeaderSearchContainer-module--searchResults___3vPQp {
-    background-color: #22262c;
 }
 
 .emptyblock {
     background-color: #1f2227;
 }
 
-.modules-headerSearch-styles-HeaderSearchList-module--title___spbE9 {
-    color: #999;
-}
-
-.modules-headerSearch-styles-HeaderSearchResult-module--searchResult___3Qgxv:hover {
+.js-searchResult:focus {
     background-color: #171a1c;
 }
 
@@ -1288,5 +1292,5 @@ input.form-control.form-control-transparent::-webkit-input-placeholder {
     color: #fff !important;
 }
 .searchOverlay {
-	background: rgba(13, 21, 28, .7);
+    background: rgba(13, 21, 28, .7);
 }
