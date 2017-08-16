@@ -1199,7 +1199,7 @@ span.menu-icon > svg > path.hover-white {
     background: #1c1c1d;
 }
 
-a.menu-link:hover > span.hidden-xs > .series-count {
+a.menu-link:hover > span.hidden-xs > .series-count, a.menu-link:hover > span.hidden-xs > .unread-count {
     border-color: #fff;
     font-weight: bolder;
     color: #1c1c1d;
