@@ -391,7 +391,7 @@ a.topbar-infos__icon.topbar-messagerie > svg {
 }
 
 .episodes_list .item_episode.seen {
-    background-color: #2d2e33;
+   background-color: #1c1c1d;
 }
 
 .showItem .actions .delete:hover,
